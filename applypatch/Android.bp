@@ -43,6 +43,10 @@ cc_library_static {
         "imgpatch.cpp",
     ],
 
+    include_dirs: [
+        "bootable/recovery-twrp",
+    ],
+
     export_include_dirs: [
         "include",
     ],

@@ -58,6 +58,7 @@ LOCAL_SRC_FILES := \
     imgpatch.cpp
 LOCAL_MODULE := libimgpatch
 LOCAL_C_INCLUDES := \
+    bootable/recovery-twrp \
     $(LOCAL_PATH)/include \
     $(commands_recovery_local_path)
 LOCAL_EXPORT_C_INCLUDE_DIRS := $(LOCAL_PATH)/include
