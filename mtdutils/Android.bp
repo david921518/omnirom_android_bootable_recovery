@@ -1,0 +1,21 @@
+// bootable/recovery-twrp/mtdutils/Android.bp
+cc_library {
+    name: "libmtdutils",
+    srcs: [
+        "mtdutils.c",
+        "mounts.c",
+    ],
+    cflags: [
+        "-Wall",
+        "-Werror",
+    ],
+    shared_libs: [
+        "libcutils",
+        "liblog",
+        "libc",
+    ],
+    static_libs: [
+        "libcutils",
+        "liblog",
+    ],
+}
