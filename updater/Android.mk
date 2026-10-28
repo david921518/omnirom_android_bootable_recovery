@@ -29,6 +29,7 @@ endif
 
 updater_common_static_libraries := \
     libapplypatch \
+    libmtdutils \
     libbspatch \
     libedify \
     libziparchive \
